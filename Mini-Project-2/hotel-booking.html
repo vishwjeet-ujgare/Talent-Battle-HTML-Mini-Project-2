@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pune District || Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    input,
+    select {
+        width: 400px;
+        height: 30px;
+    }
+
+    #form div {
+        margin-bottom: 15px;
+    }
+
+    #form {
+        border: 2px solid black;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    #quntity div {
+        margin-left: 2px;
+        display: inline-block;
+    }
+
+    #quntity div input {
+        width: 120px;
+        display: inline-block;
+
+    }
+
+    label {
+        border: 1px solid black;
+       
+    }
+    .form-container
+    {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+            <h1> पुणे जिल्हा || DISTRICT PUNE</h1>
+        </div>
+        <nav>
+            <ul class="nav-container">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="heritage.html">Heritage</a> </li>
+                <li><a href="hotel-booking.html">Hotel Booking</a> </li>
+                <li><a href="gallary.html">Gallery</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h1>Hotel Booking Form</h1>
+            <form action="" method="" id=form>
+
+                <div>
+                    <input type="text" placeholder="first name" required>
+                </div>
+
+                <div><input type="text" placeholder="last name" required></div>
+
+                <div><input type="text" placeholder="mobile number" minlength="10" maxlength="10" required></div>
+
+                <div><input type="text" placeholder="gmail Id"></div>
+
+                <div>
+                    <select name="" id="" required>
+                        <option value="0">select Hotel</option>
+                        <option value="">StayBird - B Suite, Kharadi, Pune</option>
+                        <option value="">St Laurn Koregaon Park ,Koregaon Park, Pune,</option>
+                        <option value="">FabHotel Sky Vista Homes,Kharadi, Kharadi, Pune, India, </option>
+                        <option value="">Magnus Square - Business Hotel,Pune Airport, Pune, India,</option>
+                        <option value=""> OYO Townhouse 127 Alpha, Hinjawadi, Hinjawadi, Pune, India, 411057</option>
+                        <option value=""> Mapple Adhwryou Pune, Wagholi, Pune, India, 412207 </option>
+                    </select>
+                </div>
+
+                <div id="quntity">
+                    <div>
+
+                        <input type="number" placeholder=" Adult count" min="1" max="5" >
+                    </div>
+
+                    <div>
+                        <input type="number" placeholder="child count" min="1" max="5">
+                    </div>
+
+                    <div>
+                        <input type="number" placeholder="room count" min="1" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="" style="width: 200px;">check in date</label>
+                    <input style="width: 165px;" type="date" required>
+                </div>
+
+                <div>
+                    <label for="">check out date</label>
+                    <input style="width: 160px;" type="date" required>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

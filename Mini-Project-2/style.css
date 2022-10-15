@@ -1,0 +1,40 @@
+main {
+    margin: 5px 2%;
+    padding: 0px 1%;
+    text-align: justify;
+}
+    .nav-container li {
+        display: inline-block;
+        padding: 10px;
+
+
+    }
+
+    .nav-container li a {
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .nav-container li:hover {
+        background-color: #9E6B22;
+
+
+    }
+
+    nav {
+        text-align: center;
+        background-color: darkgray;
+
+    }
+
+    header div {
+        text-align: center;
+    }
+
+    #main-container{
+        background-color: #F5F2F2;
+        padding: 5px 15px;
+        margin: 15px 0px;
+    }
